@@ -1,0 +1,18 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    margin-top: 77px;
+}
+
+footer{
+    background: url(../img/smartphones.png);
+}
+
+#testimonial{
+    background-color: #f1f1f1;
+    margin-top: 40px;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}

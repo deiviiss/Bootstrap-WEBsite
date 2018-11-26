@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap WEBsite</title>
+
+    <!-- BOOSTRAP 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    
+    <!--  SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bootstrap WEBsite</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info-one">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+
+    <header id="header">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-content-left">
+                        <img src="img/image1.png" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto">
+                    <div class="header-content-right">
+                        <h1 class="display-4">Lorem, ipsum dolor.</h1>
+                        <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur fugit ex
+                            accusantium maxime ipsam dignissimos pariatur, soluta voluptate, aliquid earum recusandae
+                            cum. Accusantium accusamus reiciendis itaque nam similique enim nemo!
+                        </p>
+                        <a href="#" class="btn btn-outline-secondary mt-2 header-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TESTIMONIAL -->
+    <section id="testimonial">
+        <div class="container">
+            <p class="mb-2 h2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi officia animi excepturi velit labore
+                cum eligendi, aperiam sint corrupti soluta, harum, eveniet maxime dolores quam accusamus quidem saepe
+                earum repellendus sed voluptate totam. Vero, error quam quisquam quidem commodi aperiam!
+            </p>
+            <p class="h4">- Ryan Ray</p>
+        </div>
+    </section>
+
+    <!-- INFO ONE -->
+
+    <section id="info-one">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="info-lef">
+                        <img src="img/image2.png" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto">
+                    <div class="info-right">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente voluptatem
+                            explicabo! Ipsum repudiandae natus vero illum magnam illo, deserunt doloremque doloribus,
+                            quidem eveniet tenetur odio. Ex atque totam quae.
+                        </p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFO TWO -->
+
+    <section id="info-two" style="background: #f1f1f1;">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti reprehenderit voluptas
+                        consequuntur nam doloribus, iure natus amet nesciunt consequatur minus illo optio ratione,
+                        nobis esse excepturi nostrum corrupti. Blanditiis, consequuntur!</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error beatae mollitia nulla sed numquam
+                        repellendus, temporibus aperiam corporis vitae deleniti voluptatibus nesciunt nemo nihil!
+                        Mollitia quis vel veniam vitae facere!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="card my-5">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input type="text" placeholder="Name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="E-mail" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-secondary btn-block">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.sr =ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+
+        window.sr = ScrollReveal();
+        sr.reveal('.header-content-left', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px'
+        });
+
+        window.sr = ScrollReveal();
+        sr.reveal('.header-content-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'    
+        });
+
+        window.sr = ScrollReveal();
+        sr.reveal('.header-btn', {
+            duration: 1000,
+            origin: 'bottom',
+            delay: 1000
+        });
+
+        window.sr = ScrollReveal();
+        sr.reveal('#testimonial', {
+            duration: 2000,
+            origin: 'left',
+            distance: '3000px',
+            viewFactor: 0.2
+        });
+
+        //SMOTH SCROLLING
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+            });
+        });
+        });
+
+    </script>
+
+    <!-- BOOTSTRAP 4 SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
